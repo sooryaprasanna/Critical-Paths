@@ -1,10 +1,10 @@
 Implemented the critical path method (CPM) algorithm in PERT charts to schedule a set of project activities.
 
-##CPM and PERT
+**CPM and PERT**
 - Critical Path Analysis can make the difference between success and failure on complex projects. It can be very useful for assessing the importance of problems faced during the implementation of the plan.
 - PERT is a variant of Critical Path Analysis that takes a more skeptical view of the time needed to complete each project stage.
 
-##Ideation
+**Ideation**
 - Critical Path Analysis and PERT are powerful tools that help you to schedule and manage complex projects.
 - A list of all activities required to complete the project (typically categorized within a work breakdown structure)
     - The time (duration) that each activity will take to complete,
@@ -15,7 +15,7 @@ Implemented the critical path method (CPM) algorithm in PERT charts to schedule 
 - In project management, a critical path is the sequence of project network activities which add up to the longest overall duration, regardless if that longest duration has float or not.
 - This determines the shortest time possible to complete the project.
 
-##Design
+**Design**
 1. To find the topological order of the graph, perform DFS from a source node.
 2. Initially all the nodes will be marked white denoting it’s not traversed.
 3. The method dfsVisit (Graph g,Vertex u) is implemented to check whether the graph is visited or not.
